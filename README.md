@@ -36,14 +36,15 @@ You can comapre 4 algorithms on different input sizes(320, 416(most popular), 62
 Installing using conda(recomended)
 
 ``` bash
-conda env create -f conda_instalation.yml
+conda create --name yolo_tutorial python=3.8
 conda activate yolo_tutorial
+pip install --upgrade pip opencv-python==4.5.1.48 numpy==1.19.2 autopep8 jupyter ipykernel
 python -m ipykernel install --user --name yolo_tutorial --display-name "yolo_tutorial"
 ```
 Installing using pip
 
 ``` bash
-pip install --upgrade pip opencv-python==4.5.1.48 numpy==1.19.2 jupyter
+pip install --upgrade pip opencv-python==4.5.1.48 numpy==1.19.2 autopep8 jupyter
 ```
 # Links to weights
 In order to run detection you must download weights for neural network(click on the name of the model below) and place them in folder **'net'** in the repository.
