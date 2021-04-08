@@ -38,20 +38,25 @@ Installing using conda(recomended)
 ``` bash
 conda create --name yolo_tutorial python=3.8
 conda activate yolo_tutorial
-pip install opencv-python==4.5.1.48 numpy==1.19.2 autopep8 jupyter ipykernel
+pip install opencv-python==4.5.1.48 numpy==1.19.2 jupyter ipykernel
 python -m ipykernel install --user --name yolo_tutorial --display-name "yolo_tutorial"
 ```
 Installing using pip
 
 ``` bash
-pip install --upgrade pip opencv-python==4.5.1.48 numpy==1.19.2 autopep8 jupyter
+pip install --upgrade pip opencv-python==4.5.1.48 numpy==1.19.2 jupyter
 ```
 # Links to weights
-In order to run detection you must download weights for neural network(click on the name of the model below) and place them in folder **'net'** in the repository.
+In order to run detection you must download weights you want to use for neural network(click on the name of the model below) and place them in folder **'net'** in the repository. 
+**IMPORTANT**, make sure the names looks exactly the same as in the images below(eg. yolov4,weights, not yolov4(1).weights)
+![image](https://user-images.githubusercontent.com/73268650/114060309-8989f180-9895-11eb-8c42-2f50958580f8.png)
+![image](https://user-images.githubusercontent.com/73268650/114060449-ade5ce00-9895-11eb-9ea4-7d3da5da6396.png)
 
 
 - [yolov3](https://pjreddie.com/media/files/yolov3.weights) (242MB)
 - [yolov3-tiny](https://pjreddie.com/media/files/yolov3-tiny.weights) (35MB)
 - [yolov4](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights) (252MB)
 - [yolov4-tiny](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights) (24MB)
+
+# How to run
 
