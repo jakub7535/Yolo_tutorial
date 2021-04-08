@@ -7,14 +7,17 @@ Keybord keys:
 - s - IOU - 0.01
 - d - CONF + 0.01
 - a - CONF - 0.01
-- 
-If you'll click capital letter(left SHIFT + letter) gain/loss will be 0.1
+
+**If you'll click capital letter(left SHIFT + letter) gain/loss will be 0.1**
 - b - show/hide anchor boxes
 - g - show hide grid and center of object
 - "space" - pause/unpause
 
 # Demo of keyboard stearing
- <p align="center"><vid src="data/readme_data/demo.mp4"\></p>
+
+![demo(1)](https://user-images.githubusercontent.com/73268650/114053923-acb1a280-988f-11eb-9bd4-2f2addaf8488.gif)
+
+
 
 
 You can run detection on:
