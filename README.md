@@ -48,7 +48,7 @@ pip install --upgrade pip opencv-python==4.5.1.48 numpy==1.19.2 jupyter
 ```
 # Links to weights
 In order to run detection you must download weights you want to use for neural network(click on the name of the model below) and place them in folder **'net'** in the repository. 
-**IMPORTANT**, make sure the names looks exactly the same as in the images below(eg. yolov4,weights, not yolov4(1).weights)
+**IMPORTANT**, make sure the names are exactly the same as in the images below(eg. yolov4,weights, not yolov4(1).weights)
 ![image](https://user-images.githubusercontent.com/73268650/114060309-8989f180-9895-11eb-8c42-2f50958580f8.png)
 ![image](https://user-images.githubusercontent.com/73268650/114060449-ade5ce00-9895-11eb-9ea4-7d3da5da6396.png)
 
@@ -59,4 +59,4 @@ In order to run detection you must download weights you want to use for neural n
 - [yolov4-tiny](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights) (24MB)
 
 # How to run
-
+Make sure you are in yolo_tutorial repository (and your venv yolo_tutorial is activated for anaconda instalation). Type 'jupyter notebook' in cmd and notebook will open in your browser. You can run cells using Shift+Enter. If you want to use camera detection make sure you have it pluged in.
