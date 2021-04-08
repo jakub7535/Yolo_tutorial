@@ -8,3 +8,4 @@ dependencies:
     - numpy==1.19.2
     - jupyter
     - ipykernel
+    - autopep8
