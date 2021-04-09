@@ -38,7 +38,7 @@ First clone this repository using git
 ``` bash
 git clone https://github.com/jakub7535/yolo_tutorial.git
 ```
-or simply  download and unpack the ZIP file(change folder name from 'yolo_tutorial-master' to yolo_tutorial for convenience.
+or simply  download and unpack the ZIP file(change folder name from 'yolo_tutorial-master' to 'yolo_tutorial' for convenience.
 ![image](https://user-images.githubusercontent.com/73268650/114109329-5b2c0680-98d5-11eb-8e7d-9f4711754fba.png)
 
 Then enter the repository:
@@ -60,7 +60,7 @@ pip install opencv-python==4.5.1.48 numpy==1.19.2 jupyter
 ```
 # Links to weights
 In order to run detection you must download weights you want to use for neural network(click on the name of the model below) and place them in folder **'net'** in the repository. 
-**IMPORTANT**, make sure the names are exactly the same as in the images below(eg. yolov4,weights, not yolov4(1).weights)
+**IMPORTANT**, make sure the names are exactly the same as in the images below(eg. yolov4.weights, not yolov4(1).weights)
 ![image](https://user-images.githubusercontent.com/73268650/114060309-8989f180-9895-11eb-8c42-2f50958580f8.png)
 ![image](https://user-images.githubusercontent.com/73268650/114060449-ade5ce00-9895-11eb-9ea4-7d3da5da6396.png)
 
