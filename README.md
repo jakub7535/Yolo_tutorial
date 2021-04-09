@@ -33,13 +33,13 @@ You can comapre 4 algorithms on different input sizes(320, 416(most popular), 62
 
 
 # Instalation
-First clone this repository using git or simply  download and unpack the ZIP file.
-![image](https://user-images.githubusercontent.com/73268650/114109329-5b2c0680-98d5-11eb-8e7d-9f4711754fba.png)
-
+First clone this repository using git 
 
 ``` bash
 git clone https://github.com/jakub7535/yolo_tutorial.git
 ```
+or simply  download and unpack the ZIP file(change folder name from 'yolo_tutorial-master' to yolo_tutorial for convenience.
+![image](https://user-images.githubusercontent.com/73268650/114109329-5b2c0680-98d5-11eb-8e7d-9f4711754fba.png)
 
 Then enter the repository:
 
@@ -56,7 +56,7 @@ python -m ipykernel install --user --name yolo_tutorial --display-name "yolo_tut
 Installing using pip
 
 ``` bash
-pip install --upgrade pip opencv-python==4.5.1.48 numpy==1.19.2 jupyter
+pip install opencv-python==4.5.1.48 numpy==1.19.2 jupyter
 ```
 # Links to weights
 In order to run detection you must download weights you want to use for neural network(click on the name of the model below) and place them in folder **'net'** in the repository. 
