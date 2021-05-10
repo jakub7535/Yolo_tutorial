@@ -1,8 +1,14 @@
-.gitignore
 venv/
 __pycache__/
 .idea/
 .ipynb_checkpoints
 video_bb.ipynb
+README.md
 *.py
 *.weights
+!net/yolov4-tiny.weights
+detections/
+!detections/web_img_24_152755.png
+!detections/park_24_145733.png
+!detections/web_08_163844.mp4
+!detections/NY_08_163406.mp4
