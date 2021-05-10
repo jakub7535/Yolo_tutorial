@@ -7,7 +7,8 @@ README.md
 *.py
 *.weights
 !net/yolov4-tiny.weights
-detections/
+detections/*.png
+detections/*.mp4
 !detections/web_img_24_152755.png
 !detections/park_24_145733.png
 !detections/web_08_163844.mp4
