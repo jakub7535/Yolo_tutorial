@@ -68,7 +68,7 @@ In order to run detection you must download weights you want to use for neural n
 - [yolov3](https://pjreddie.com/media/files/yolov3.weights) (242MB)
 - [yolov3-tiny](https://pjreddie.com/media/files/yolov3-tiny.weights) (35MB)
 - [yolov4](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights) (252MB)
-- [yolov4-tiny](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights) (24MB)
+- [yolov4-tiny](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights) (24MB)(already in folder net)
 
 # How to run
 Make sure you are in yolo_tutorial repository (and your venv yolo_tutorial is activated for anaconda instalation). Type 'jupyter notebook' in cmd and notebook will open in your browser. You can run cells using Shift+Enter. If you want to use camera detection make sure you have it pluged in.
