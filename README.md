@@ -67,7 +67,7 @@ python -m ipykernel install --user --name yolo_tutorial --display-name "yolo_tut
 Installing using pip
 
 ``` bash
-pip install opencv-python==4.5.1.48 numpy==1.19.2 jupyter pafy
+pip install opencv-python==4.5.1.48 numpy==1.19.2 jupyter pafy youtube-dl
 ```
 # Links to weights
 In order to run detection you must download weights you want to use for neural network(click on the name of the model below) and place them in folder **'net'** in the repository. 
