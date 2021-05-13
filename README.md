@@ -56,7 +56,7 @@ Then enter the repository:
 
 ![image](https://user-images.githubusercontent.com/73268650/114109278-3f286500-98d5-11eb-8eeb-1990952282f0.png)
 
-Installing using conda(recomended)
+Installing using conda(recomended) and virtual environment
 
 ``` bash
 conda create --name yolo_tutorial python=3.8
